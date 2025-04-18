@@ -109,13 +109,16 @@ async function registerUser(name, email, password, phone, address) {
       );
     
       const querySnapshot = await getDocs(q);
-      console.log(querySnapshot.empty);
       if (!querySnapshot.empty) {
           document.getElementById('E-mail').setCustomValidity("❌ Email already exists.");
           document.getElementById('E-mail').reportValidity();  // Trigger the display of the validation message
         return;
       }
-    
+      if(password.length < 6){
+        document.getElementById('Password').setCustomValidity("❌ Password should be at least 6 characters.");
+        document.getElementById('Password').reportValidity();  // Trigger the display of the validation message
+        return;
+      }
       // If user not found, create Auth user
       createUserWithEmailAndPassword(auth, email, password)
         .then(async (userCredential) => {
