@@ -216,3 +216,16 @@ body{
     transform: translateX(0);
     right: 0;
 }
+
+.after-SignUp{
+    display: none;
+}
+
+.successful-img-icon{
+    margin: 20px 3px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    object-fit: contain;
+}

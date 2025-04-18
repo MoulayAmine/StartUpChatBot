@@ -1,6 +1,6 @@
 
 import {auth, db } from "./firebaseConfig.js"; 
-import {signInWithPopup, GoogleAuthProvider, onAuthStateChanged, fetchSignInMethodsForEmail, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-auth.js";
+import {signInWithPopup, GoogleAuthProvider, onAuthStateChanged, fetchSignInMethodsForEmail, createUserWithEmailAndPassword, sendEmailVerification, signOut  } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-auth.js";
 import { getFirestore, collection, query, where, getDocs, addDoc } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-firestore.js";
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -10,14 +10,26 @@ document.addEventListener('DOMContentLoaded', () => {
     const returnBtn = document.getElementById('return');
     const googlebtn = document.querySelectorAll('.icons');
     const SignUpbtn = document.getElementById('SignUp btn');
+    const placeholderText = {};
+
+    document.querySelectorAll('.form-container.sign-up input').forEach((input) => {
+      placeholderText[input.id] = input.placeholder;
+    });
 
     registerBtn.addEventListener('click', () => {
         container.classList.add("active");
     });
     
     returnBtn.addEventListener('click', () => {
-        container.classList.remove("active");
-    });
+         
+      container.classList.remove("active");
+      const inputs = document.querySelectorAll('.form-container.sign-up input');
+      inputs.forEach((input) => {
+      input.style.border = "";
+      input.setAttribute('placeholder', placeholderText[input.id] || "");
+  });
+
+  });
     
     SignUpbtn.addEventListener('click', (e) => {
       e.preventDefault(); // Prevent any default behavior (like refresh)
@@ -89,40 +101,48 @@ document.addEventListener('DOMContentLoaded', () => {
 })
 
 async function registerUser(name, email, password, phone, address) {
-    const usersRef = collection(db, "Users");
-  
-    // Query for existing user
-    const q = query(usersRef, 
-      where("email", "==", email)
-    );
-  
-    const querySnapshot = await getDocs(q);
-  
-    if (!querySnapshot.empty) {
-        document.getElementById('E-mail').setCustomValidity("❌ Email already exists.");
-        document.getElementById('E-mail').reportValidity();  // Trigger the display of the validation message
-      return;
-    }
-  
-    // If user not found, create Auth user
-    createUserWithEmailAndPassword(auth, email, password)
-      .then(async (userCredential) => {
-        const user = userCredential.user;
-  
-        // Add to Firestore
-        await addDoc(usersRef, {
-          uid: user.uid,
-          name,
-          email,
-          phone,
-          address
+      const usersRef = collection(db, "Users");
+    
+      // Query for existing user
+      const q = query(usersRef, 
+        where("email", "==", email)
+      );
+    
+      const querySnapshot = await getDocs(q);
+    
+      if (!querySnapshot.empty) {
+          document.getElementById('E-mail').setCustomValidity("❌ Email already exists.");
+          document.getElementById('E-mail').reportValidity();  // Trigger the display of the validation message
+        return;
+      }
+    
+      // If user not found, create Auth user
+      createUserWithEmailAndPassword(auth, email, password)
+        .then(async (userCredential) => {
+              const user = userCredential.user;
+              sendEmailVerification(user)
+              .then(() => {
+                  alert("A verification email has been sent. Please check your inbox.");
+                  
+                  //sign out the user until they verify
+                  signOut(auth);
+              });
+              // Add to Firestore
+              await addDoc(usersRef, {
+                uid: user.uid,
+                Name: name,
+                Email: email,
+                Phone: phone,
+                Address: address
+              });
+              container.classList.remove("active");
+              document.querySelector('.before-SignUp').style.display = 'none';
+              document.querySelector('.after-SignUp').style.display = 'block';
+              console.log("User successfully registered and added to Firestore!");
+        })
+        .catch((error) => {
+          console.error("Auth error:", error.message);
         });
-  
-        console.log("User successfully registered and added to Firestore!");
-      })
-      .catch((error) => {
-        console.error("Auth error:", error.message);
-      });
   }
 
   
