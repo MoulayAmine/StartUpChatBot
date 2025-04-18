@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="authpage.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>        <!--https://boxicons.com/ -->
+
+    <title>Authentication Page</title>
+</head>
+
+<body>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Create Account</h1>
+                <span>Register with E-mail</span>
+                <input id="Name" type="text" placeholder=" Enter Name">
+                <input id="E-mail" type="email" placeholder="Enter E-mail">
+                <input id="Password" type="password" placeholder="Enter Password">
+                <input id="PhoneNumber" type="tel" pattern="[0-9]{10}" maxlength="10" inputmode="numeric" placeholder="Enter Phone Number">
+                <input id="Address" type="Address" placeholder="Enter Address">
+                <button id="SignUp btn">Sign Up</button>
+            </form>
+        </div>
+
+       
+
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Hii Starters</h1>
+                    <p>Sign Up and join us</p>
+                    <button class="hidden" id="return"><img src="img/icons8-double-left-96.png" alt="Get Started" class="img-icon"></button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Welcome To <br>ENTChat</h1>
+                    <p>Join "ENTChat" to find your startUp project</p>
+                    <button class="hidden" id="register">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="authpage.js"></script>
+</body>
+
+</html>
