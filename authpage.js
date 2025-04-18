@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const Email = document.getElementById('E-mail').value.trim().toLowerCase();;
         const PassWord = document.getElementById('Password').value.trim();
         const Name = document.getElementById('Name').value;
-        const Phonenbr = document.getElementById('PhoneNumber').value;
+        const Phonenbr = document.getElementById('PhoneNumber').value.trim();
         const Ads = document.getElementById('Address').value.trim();
 
         
@@ -112,12 +112,30 @@ async function registerUser(name, email, password, phone, address) {
       if (!querySnapshot.empty) {
           document.getElementById('E-mail').setCustomValidity("❌ Email already exists.");
           document.getElementById('E-mail').reportValidity();  // Trigger the display of the validation message
+          
         return;
       }
+      else{
+        document.getElementById('E-mail').setCustomValidity("");
+      }
+      
       if(password.length < 6){
         document.getElementById('Password').setCustomValidity("❌ Password should be at least 6 characters.");
         document.getElementById('Password').reportValidity();  // Trigger the display of the validation message
         return;
+      }
+      else{
+        document.getElementById('Password').setCustomValidity("");
+      }
+
+      if(phone.length < 10){
+        document.getElementById('PhoneNumber').setCustomValidity("❌ Phone number should be at least 10 characters.");
+        document.getElementById('PhoneNumber').reportValidity();  // Trigger the display of the validation message
+        
+        return;
+      }
+      else{
+        document.getElementById('PhoneNumber').setCustomValidity("");
       }
       // If user not found, create Auth user
       createUserWithEmailAndPassword(auth, email, password)
