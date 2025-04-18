@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return; // Stop here if any field is empty
         }
 
-        const Email = document.getElementById('E-mail').value.trim();
+        const Email = document.getElementById('E-mail').value.trim().toLowerCase();;
         const PassWord = document.getElementById('Password').value.trim();
         const Name = document.getElementById('Name').value;
         const Phonenbr = document.getElementById('PhoneNumber').value;
@@ -109,7 +109,7 @@ async function registerUser(name, email, password, phone, address) {
       );
     
       const querySnapshot = await getDocs(q);
-    
+      console.log(querySnapshot.empty);
       if (!querySnapshot.empty) {
           document.getElementById('E-mail').setCustomValidity("❌ Email already exists.");
           document.getElementById('E-mail').reportValidity();  // Trigger the display of the validation message
@@ -130,10 +130,10 @@ async function registerUser(name, email, password, phone, address) {
               // Add to Firestore
               await addDoc(usersRef, {
                 uid: user.uid,
-                Name: name,
-                Email: email,
-                Phone: phone,
-                Address: address
+                name,
+                email,
+                phone,
+                address
               });
               container.classList.remove("active");
               document.querySelector('.before-SignUp').style.display = 'none';
