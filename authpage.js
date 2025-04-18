@@ -19,8 +19,8 @@ document.addEventListener('DOMContentLoaded', () => {
         container.classList.remove("active");
     });
     
-    SignUpbtn.addEventListener('click', () => {
-
+    SignUpbtn.addEventListener('click', (e) => {
+      e.preventDefault(); // Prevent any default behavior (like refresh)
         const inputs = [
             document.getElementById('Name'),
             document.getElementById('E-mail'),
