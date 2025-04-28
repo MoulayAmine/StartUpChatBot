@@ -246,10 +246,7 @@ body{
     .sign-in, .sign-up {
       width: 100%;
     }
-  
-    .toggle-container {
-      display: none; /* Hide the big animation on small screens */
-    }
+
   }
   
   /* Mobile devices (width less than 480px) */
@@ -280,9 +277,5 @@ body{
   
     .form-container span {
       font-size: 14px;
-    }
-  
-    .toggle-container {
-      display: none; /* Again, hide the animation on small phones */
     }
   }
