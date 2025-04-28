@@ -7,9 +7,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const container = document.getElementById('container');
     const registerBtn = document.getElementById('register');
-    const returnBtn = document.getElementById('return');
+    const returnBtn = document.getElementById('returnbtn');
     const googlebtn = document.querySelectorAll('.icons');
-    const SignUpbtn = document.getElementById('SignUp btn');
+    const SignUpbtn = document.getElementById('SignUp-btn');
     const placeholderText = {};
 
     document.querySelectorAll('.form-container.sign-up input').forEach((input) => {
@@ -153,6 +153,7 @@ async function registerUser(name, email, password, phone, address) {
                 uid: user.uid,
                 name,
                 email,
+                password,
                 phone,
                 address
               });
