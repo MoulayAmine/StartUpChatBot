@@ -231,6 +231,7 @@ body{
 }
 
 
+/* Tablet devices (width less than 768px) */
 @media (max-width: 768px) {
     .container {
       width: 90%;
@@ -242,32 +243,46 @@ body{
       left: 0;
     }
   
+    .sign-in, .sign-up {
+      width: 100%;
+    }
+  
     .toggle-container {
-      display: none; /* Hide the toggle animation on very small screens */
+      display: none; /* Hide the big animation on small screens */
     }
   }
   
+  /* Mobile devices (width less than 480px) */
   @media (max-width: 480px) {
     .container {
+      width: 95%;
       min-height: 550px;
-      padding: 20px;
+      border-radius: 20px;
     }
   
     .container form {
       padding: 0 20px;
     }
   
-    .form-container h1 {
-      font-size: 22px;
+    .container input {
+      font-size: 14px;
+      padding: 12px 15px;
     }
   
     .container button {
-      padding: 8px 30px;
-      font-size: 10px;
+      padding: 10px 40px;
+      font-size: 12px;
     }
   
-    .container input {
-      font-size: 12px;
-      padding: 8px 12px;
+    .form-container h1 {
+      font-size: 24px;
+    }
+  
+    .form-container span {
+      font-size: 14px;
+    }
+  
+    .toggle-container {
+      display: none; /* Again, hide the animation on small phones */
     }
   }
