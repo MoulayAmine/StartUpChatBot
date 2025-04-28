@@ -229,3 +229,45 @@ body{
     width: 180px;
     object-fit: contain;
 }
+
+
+@media (max-width: 768px) {
+    .container {
+      width: 90%;
+      min-height: 500px;
+    }
+  
+    .form-container {
+      width: 100%;
+      left: 0;
+    }
+  
+    .toggle-container {
+      display: none; /* Hide the toggle animation on very small screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      min-height: 550px;
+      padding: 20px;
+    }
+  
+    .container form {
+      padding: 0 20px;
+    }
+  
+    .form-container h1 {
+      font-size: 22px;
+    }
+  
+    .container button {
+      padding: 8px 30px;
+      font-size: 10px;
+    }
+  
+    .container input {
+      font-size: 12px;
+      padding: 8px 12px;
+    }
+  }
