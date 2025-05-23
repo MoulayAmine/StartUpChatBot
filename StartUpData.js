@@ -25,7 +25,7 @@
     },
     {
         "category": "Agriculture de Précision",
-        "title": "Systèmes de surveillance des cultures basés sur l'IoT et l'IA",
+        "title": "Surveillance agricole IoT & IA",
         "description": "Utilisation de capteurs (humidité du sol, température, nutriments), de drones et de l'analyse d'images par IA pour fournir aux agriculteurs des données en temps réel sur l'état de leurs cultures, la détection précoce des maladies et des ravageurs, et l'optimisation de l'irrigation et de la fertilisation.",
         "details": "Ce projet de startup vise à révolutionner l'agriculture en Algérie grâce à des systèmes de surveillance intelligents des cultures. En déployant un réseau de capteurs IoT (Internet des Objets) dans les parcelles agricoles, la startup collectera en temps réel des données cruciales telles que l'humidité du sol, la température, les niveaux de nutriments et d'autres paramètres environnementaux. Ces données seront ensuite analysées par des algorithmes d'Intelligence Artificielle (IA) pour fournir aux agriculteurs des informations précises et exploitables. Ils pourront ainsi détecter précocement les maladies et les ravageurs, optimiser l'irrigation et la fertilisation, et prendre des décisions éclairées pour améliorer les rendements, réduire les coûts et promouvoir une agriculture plus durable et efficace.",
         "keywords": ["IoT", "IA", "agriculture", "capteurs", "drones"],
@@ -33,15 +33,15 @@
       },
       {
         "category": "Agriculture de Précision",
-        "title": "Plateformes de suivi et d'optimisation de l'utilisation de l'eau dans l'agriculture",
-        "description": "",
+        "title": "Suivi intelligent de l'eau agricole",
+        "description": "Système de gestion intelligente de l'irrigation pour économiser l'eau et maximiser les rendements agricoles.",
         "details": "Cette startup algérienne vise à aider les agriculteurs à mieux gérer l'eau grâce à des plateformes technologiques. En utilisant des capteurs dans les champs et des logiciels accessibles, les agriculteurs suivront en direct leurs besoins en eau et recevront des conseils personnalisés pour irriguer de manière optimale. L'objectif est de réduire le gaspillage d'eau, de diminuer les coûts et de rendre l'agriculture algérienne plus durable face au manque d'eau.",
         "keywords": ["eau", "agriculture", "capteurs", "optimisation"],
         "emoji": ""
       },
       {
         "category": "Santé et bien être",
-        "title": "Solutions de gestion administrative pour les cliniques et les hôpitaux",
+        "title": "Gestion admin. pour cliniques & hôpitaux",
         "description": "Logiciels pour optimiser la gestion des stocks de médicaments, la facturation, la gestion du personnel et la planification des ressources.",
         "details": "Cette startup algérienne propose des logiciels pour simplifier la gestion administrative des cliniques et hôpitaux. Ces outils numériques intégreront la gestion des stocks, la facturation, les ressources humaines, les rendez-vous et l'analyse de données. L'objectif est d'améliorer l'efficacité des établissements de santé, de réduire les coûts et de permettre au personnel médical de se concentrer sur les patients.",
         "keywords": ["santé", "gestion", "cliniques", "logiciel", "facturation"],
@@ -49,7 +49,7 @@
       },
       {
         "category": "Santé et bien être",
-        "title": "Solutions de gestion des stocks et de prédiction de la demande pour les pharmacies",
+        "title": "Gestion & prévision pour pharmacies",
         "description": "Optimiser l'approvisionnement en médicaments et éviter les ruptures de stock.",
         "details": "Cette startup algérienne propose des logiciels intelligents pour aider les pharmacies à mieux gérer leurs stocks de médicaments et à anticiper la demande. En analysant les données de vente et d'autres facteurs, le système alertera sur les bas stocks et suggérera les commandes optimales, évitant ainsi les ruptures et le gaspillage pour améliorer l'accès aux médicaments.",
         "keywords": ["pharmacie", "stocks", "prédiction", "logiciel", "médicaments"],
@@ -57,7 +57,7 @@
       },
       {
         "category": "Santé et bien être",
-        "title": "Outil IA d'Aide à la Décision Clinique et de Suivi Patient à Distance",
+        "title": "IA pour décision clinique & suivi à distance",
         "description": "Ce chatbot intelligent assisterait les médecins en temps réel lors des soins et opérations en fournissant des informations critiques et en aidant à la documentation, tout en assurant un suivi personnalisé des patients à domicile avec des réponses, des rappels, un soutien de base et des conseils de santé adaptés à leur situation.",
         "details": "La réalisation de ce chatbot médical en Algérie nécessitera le développement d'une IA performante capable de comprendre le langage naturel pour assister les médecins en temps réel avec des informations cruciales et aider à la documentation. Simultanément, il faudra intégrer des fonctionnalités pour un suivi personnalisé des patients à domicile, offrant des réponses, des rappels et des conseils de santé adaptés. Enfin, la sécurité des données et la conformité aux réglementations médicales algériennes seront primordiales à chaque étape du développement et du déploiement.",
         "keywords": ["IA", "santé", "chatbot", "télémédecine", "suivi patient"],
@@ -65,15 +65,15 @@
       },
       {
         "category": "Éducation",
-        "title": "LMS interactif et adapté au contexte algérien",
+        "title": "LMS interactif algérien",
         "description": "Développer une plateforme d'apprentissage en ligne riche en fonctionnalités (quiz, forums, devoirs, suivi des progrès) et localisée en arabe et en français, tenant compte des programmes scolaires algériens et des spécificités culturelles.",
-        "details": "",
+        "details": "Cette plateforme LMS permettra aux élèves algériens d'apprendre en ligne avec une interface adaptée au programme national. Elle intégrera des modules interactifs comme des quiz, forums, évaluations et exercices. Les enseignants pourront suivre les progrès et adapter les contenus. La localisation en arabe et français et la compatibilité mobile seront des atouts majeurs.",
         "keywords": ["LMS", "éducation", "plateforme", "apprentissage", "algérien"],
         "emoji": ""
       },
       {
         "category": "Éducation",
-        "title": "Plateformes de cours en ligne spécialisés",
+        "title": "Plateformes e-learning spécialisées",
         "description": "Offrir des cours de qualité dans des domaines spécifiques (langues étrangères, programmation, compétences professionnelles) animés par des instructeurs qualifiés, avec des certifications reconnues.",
         "details": "Pour lancer une plateforme de cours en ligne spécialisés en Algérie, il faut identifier les domaines demandés, trouver des professeurs experts et créer des cours de qualité avec des certifications reconnues. Une plateforme web facile à utiliser, des paiements sécurisés et un bon support sont essentiels, tout comme des partenariats locaux pour la crédibilité des certifications.",
         "keywords": ["cours en ligne", "certification", "éducation", "enseignement", "compétences"],
@@ -81,7 +81,7 @@
       },
       {
         "category": "Éducation",
-        "title": "Applications mobiles éducatives gamifiées",
+        "title": "Applis ludo-éducatives",
         "description": "Créer des applications attrayantes et amusantes pour l'apprentissage de religion, des langues, des mathématiques, des sciences, etc., en utilisant des mécanismes pour motiver les apprenants.",
         "details": "Créer des applications éducatives gamifiées en Algérie nécessite une équipe d'éducateurs, de développeurs et de designers. Le contenu doit être adapté aux programmes locaux en arabe, et des tests avec les utilisateurs garantiront l'efficacité et l'attrait des applications.",
         "keywords": ["application", "gamification", "éducation", "apprentissage", "mobile"],
@@ -89,7 +89,7 @@
       },
       {
         "category": "Éducation",
-        "title": "Plateformes de création de contenu éducatif interactif",
+        "title": "Outils de création éducative interactive",
         "description": "Offrir aux enseignants des outils simples pour créer leurs propres leçons interactives, quiz et simulations.",
         "details": "Créer une plateforme algérienne pour que les enseignants fassent des leçons interactives facilement nécessite une interface simple. L'IA pourrait aider en suggérant des améliorations, en créant des questions de quiz, en adaptant la difficulté et en analysant l'engagement des élèves. Des modèles basés sur les programmes locaux faciliteraient l'utilisation, et l'intégration aux plateformes existantes aiderait à son adoption.",
         "keywords": ["enseignants", "contenu interactif", "quiz", "IA", "éducation"],
@@ -105,7 +105,7 @@
       },
       {
         "category": "Environnement",
-        "title": "Installation et maintenance de systèmes solaires photovoltaïques pour les particuliers et les entreprises",
+        "title": "Solutions solaires pour particuliers & entreprises",
         "description": "Offrir des solutions clés en main pour l'adoption de l'énergie solaire.",
         "details": "L'idée est de proposer d'installer des systèmes solaires photovoltaïques pour les maisons et les entreprises en offrant un service complet : évaluation, conception, installation, maintenance et suivi. Pour réussir, elle devra s'équiper de matériel de qualité, former des installateurs, simplifier les démarches administratives et proposer des financements intéressants, tout en informant sur les avantages du solaire et en assurant un bon service après-vente.",
         "keywords": ["énergie solaire", "photovoltaïque", "installation", "maintenance", "écologie"],
@@ -113,7 +113,7 @@
       },
       {
         "category": "Environnement",
-        "title": "Solutions d'optimisation de la consommation énergétique pour les bâtiments",
+        "title": "Optimisation énergétique des bâtiments",
         "description": "Utilisation de l'IoT et de l'IA pour gérer intelligemment l'éclairage, le chauffage et la climatisation.",
         "details": "L'idée est de mettre en place un système intelligent de gestion énergétique pour les bâtiments en Algérie. Des capteurs connectés (IoT) collecteront des informations sur l'éclairage, le chauffage et la climatisation, qui seront ensuite analysées par l'intelligence artificielle (IA). Cette analyse permettra d'automatiser et d'optimiser l'utilisation de ces systèmes, réduisant ainsi la consommation d'énergie, améliorant le confort des occupants et contribuant à une gestion énergétique plus durable dans le pays, en collaboration avec les professionnels du secteur de la construction.",
         "keywords": ["énergie", "IA", "IoT", "bâtiments", "efficacité énergétique"],
@@ -121,23 +121,23 @@
       },
       {
         "category": "Environnement",
-        "title": "Solutions de captation et de stockage de l'eau de pluie",
-        "description": "",
+        "title": "Captage & stockage d’eau de pluie",
+        "description": "Proposer des systèmes pour récupérer et utiliser l’eau de pluie de manière durable en zones urbaines et rurales.",
         "details": "L'idée est de proposer des systèmes pour récupérer et stocker l'eau de pluie en Algérie, adaptés aux maisons, immeubles et fermes. Cela comprend la conception de collecteurs, de filtres et de réservoirs solides et abordables. Le but est d'encourager l'utilisation de l'eau de pluie pour des usages non-potables, de rendre ces systèmes accessibles et de travailler avec les autorités pour une meilleure gestion de l'eau dans le pays.",
         "keywords": ["eau de pluie", "stockage", "environnement", "récupération", "réservoir"],
         "emoji": ""
       },
       {
         "category": "Environnement",
-        "title": "Services de détection et de réparation des fuites dans les réseaux de distribution d'eau",
-        "description": "",
+        "title": "Services anti-fuites réseaux d’eau",
+        "description": "Détection et réparation intelligente des fuites d'eau dans les réseaux de distribution pour économiser les ressources.",
         "details": "L'idée est de créer une entreprise en Algérie spécialisée dans la recherche et la réparation rapide et efficace des fuites d'eau dans les réseaux de distribution. Cette entreprise utilisera des technologies avancées pour localiser précisément les fuites et emploiera des techniciens qualifiés pour les réparer durablement, en collaborant avec les entreprises de distribution d'eau pour réduire les pertes et optimiser l'utilisation de l'eau.",
         "keywords": ["fuites d'eau", "distribution", "détection", "réparation", "eau"],
         "emoji": ""
       },
       {
         "category": "e-commerce",
-        "title": "Solutions de logistique et de livraison pour l'e-commerce",
+        "title": "Logistique & livraison e-commerce",
         "description": "Développer des réseaux de distribution efficaces et fiables, offrant des options de livraison rapide et un suivi en temps réel pour les commerçants en ligne.",
         "details": "Pour améliorer la livraison pour l'e-commerce en Algérie, il faut créer des centres de distribution bien placés, utiliser une technologie pour gérer les commandes et les itinéraires, suivre les colis en direct et informer les clients. Il faut aussi des livreurs fiables et des solutions pour les retours, en travaillant avec les sites de vente en ligne et les commerçants.",
         "keywords": ["logistique", "livraison", "e-commerce", "Algérie", "technologie"],
@@ -145,7 +145,7 @@
       },
       {
         "category": "e-commerce",
-        "title": "Plateformes de création de boutiques en ligne faciles à utiliser",
+        "title": "Création de boutiques en ligne faciles",
         "description": "Fournir aux petites entreprises et aux entrepreneurs des outils simples pour créer et gérer leur propre boutique en ligne sans nécessiter de compétences techniques avancées.",
         "details": "Cette startup algérienne vise à simplifier la création de boutiques en ligne pour les petites entreprises et entrepreneurs en offrant une plateforme intuitive avec des modèles personnalisables, la gestion des produits et des commandes, des options de paiement et de livraison locales, et des outils marketing de base, le tout en arabe et en français avec un support dédié et des partenariats logistiques pour faciliter le développement du commerce électronique local.",
         "keywords": ["plateforme", "création de boutique", "e-commerce", "entrepreneurs", "Algérie"],
@@ -153,7 +153,7 @@
       },
       {
         "category": "e-commerce",
-        "title": "Solutions de personnalisation de l'expérience client pour l'e-commerce",
+        "title": "Personnalisation expérience client e-commerce",
         "description": "Utiliser l'IA pour analyser le comportement des clients et proposer des recommandations de produits personnalisées, améliorant ainsi l'engagement et les ventes.",
         "details": "L'idée est de développer une solution d'intelligence artificielle (IA) pour personnaliser l'expérience client sur les plateformes de commerce électronique en Algérie. En analysant le comportement des utilisateurs (navigation, achats passés, préférences), l'IA proposera des recommandations de produits sur mesure, visant à augmenter l'engagement des clients, à stimuler les ventes et à renforcer leur fidélité en leur offrant une expérience d'achat plus pertinente et individualisée. La réalisation impliquera la création d'algorithmes d'IA efficaces et leur intégration aux sites e-commerce existants, tout en assurant la protection des données personnelles.",
         "keywords": ["IA", "personnalisation", "e-commerce", "Algérie", "expérience client"],
@@ -162,16 +162,6 @@
   ]
 
   export const StartUp_Examples = [
-    {
-      "category": "Technologie",
-      "title": "Labla bee",
-      "description": "EdTech spécialisée dans les laboratoires d'apprentissage virtuels pour les réseaux avancés, la 5G, le cloud et l'IA.",
-      "details": "Labla bee, fondée en 2021 par Samir Tahraoui et Mahmoud Sid Ali Mobarek, développe des laboratoires virtuels pour former aux technologies de pointe comme la 5G, le cloud computing et l'intelligence artificielle. L'objectif est de combler le déficit de compétences dans les télécoms sans nécessiter d'équipement physique.",
-      "founders": ["Samir Tahraoui", "Mahmoud Sid Ali Mobarek"],
-      "founded": "2021",
-      "keywords": ["EdTech", "5G", "cloud", "intelligence artificielle", "formation", "télécommunications"],
-      "emoji": "🎓"
-    },
     {
       "category": "Technologie",
       "title": "Labla bee",
@@ -228,7 +218,7 @@
       "description": "Logiciels de gestion médicale, notamment pour les cabinets de gynécologie.",
       "details": "M-Click Solution développe des logiciels destinés aux cabinets médicaux, avec un accent particulier sur la gynécologie. L’objectif est de numériser et d’optimiser les processus médicaux pour une meilleure gestion des consultations et des dossiers.",
       "founders": [],
-      "founded": "",
+      "founded": "Not mentioned",
       "keywords": ["e-santé", "gynécologie", "gestion médicale", "numérisation", "logiciel"],
       "emoji": "🩺"
     },
@@ -236,8 +226,8 @@
       "category": "Médical",
       "title": "Docteur 360",
       "description": "Plateforme algérienne pour le suivi coordonné des patients atteints de cancer.",
-      "details": "Fondée en 2022 par Mehdi Seriak, Docteur 360 est une plateforme en ligne visant à améliorer le parcours de soins des patients atteints de cancer. Elle facilite la coordination entre les spécialistes et réduit les délais de diagnostic en centralisant les informations médicales.",
-      "founders": ["Mehdi Seriak"],
+      "details": "Fondée en 2022 par Mehdi SARIAK, Docteur 360 est une plateforme en ligne visant à améliorer le parcours de soins des patients atteints de cancer. Elle facilite la coordination entre les spécialistes et réduit les délais de diagnostic en centralisant les informations médicales.",
+      "founders": ["Mehdi SARIAK"],
       "founded": "2022",
       "keywords": ["cancer", "plateforme médicale", "coordination", "diagnostic", "santé numérique"],
       "emoji": "🧪"
@@ -268,7 +258,7 @@
       "description": "Plateforme de QCM pour préparer les concours de résidanat en médecine.",
       "details": "Siamois QCM est une plateforme éducative qui aide les étudiants en médecine, pharmacie et médecine dentaire à se préparer efficacement au concours de résidanat grâce à des QCM personnalisés, des quiz, et un suivi des performances. Elle est utilisée par plus de 50 000 étudiants en Algérie.",
       "founders": [],
-      "founded": "",
+      "founded": "Not mentioned",
       "keywords": ["QCM", "résidanat", "médecine", "préparation examens", "éducation médicale"],
       "emoji": "📚"
     },
@@ -316,9 +306,9 @@
       "category": "Finance",
       "title": "Moustachir",
       "description": "Plateforme en ligne dédiée à la réservation de services de coiffure et de barbering.",
-      "details": "Moustachir, fondée en 2020 par Mohamed Boudjellal, permet aux utilisateurs de prendre rendez-vous avec des professionnels de la coiffure pour l'entretien de la barbe et des cheveux.",
-      "founders": ["Mohamed Boudjellal"],
-      "founded": "2020",
+      "details": "Moustachir, fondée en 2022 par Kheireddine Boulefa, permet aux utilisateurs de prendre rendez-vous avec des professionnels de la coiffure pour l'entretien de la barbe et des cheveux.",
+      "founders": ["Kheireddine Boulefa"],
+      "founded": "2022",
       "keywords": ["coiffure", "barbering", "services", "réservation", "plateforme"],
       "emoji": "💇‍♂️"
     },
@@ -326,9 +316,9 @@
       "category": "Finance",
       "title": "B-link",
       "description": "Solutions de connectivité et d'Internet des objets (IoT) pour les entreprises et foyers.",
-      "details": "B-link, fondée en 2020 par Karim Bouzidi, offre des services IoT permettant de connecter différents appareils à distance, facilitant ainsi la gestion de la domotique et de la sécurité.",
-      "founders": ["Karim Bouzidi"],
-      "founded": "2020",
+      "details": "B-link, fondée en 2021 par Fouad Boughida, offre des services IoT permettant de connecter différents appareils à distance, facilitant ainsi la gestion de la domotique et de la sécurité.",
+      "founders": ["Fouad Boughida"],
+      "founded": "2021",
       "keywords": ["IoT", "connectivité", "domotique", "sécurité", "services"],
       "emoji": "🌐"
     },
@@ -348,7 +338,7 @@
       "description": "Plateforme de paiement en ligne algérienne.",
       "details": "Alpay est une solution sécurisée de paiement en ligne pour les entreprises et les particuliers, facilitant les transactions numériques en Algérie.",
       "founders": [],
-      "founded": "",
+      "founded": "Not mentioned",
       "keywords": ["paiement", "plateforme", "en ligne", "sécurisé", "transactions"],
       "emoji": "💳"
     },
@@ -367,18 +357,18 @@
       "title": "Maystro Delivery",
       "description": "Startup spécialisée dans la logistique et la livraison.",
       "details": "Maystro Delivery, fondée en 2021 par Mohamed Amine Hanane, offre des solutions de transport optimisées pour les entreprises et les particuliers.",
-      "founders": ["Mohamed Amine Hanane"],
+      "founders": ["Walid Laribi", "Abdelhalim Lagrid", "Hebbar Walid Choukr"],
       "founded": "2021",
       "keywords": ["logistique", "livraison", "transport", "startup", "solutions"],
       "emoji": "📦"
     },
     {
       "category": "Transport",
-      "title": "Hitch",
+      "title": "Heetch",
       "description": "Application de covoiturage économique et écologique.",
-      "details": "Hitch, fondée en 2018 par Mohamed Righi, met en relation les conducteurs et passagers souhaitant partager un trajet, offrant une solution de transport plus abordable et respectueuse de l'environnement.",
-      "founders": ["Mohamed Righi"],
-      "founded": "2018",
+      "details": "La société française de VTC Heetch s'est implantée en Algérie en 2019 grâce à un partenariat stratégique avec Nassim Lounes, un entrepreneur expérimenté dans la communication numérique et les technologies, met en relation les conducteurs et passagers souhaitant partager un trajet, offrant une solution de transport plus abordable et respectueuse de l'environnement.",
+      "founders": ["Nassim Lounes"],
+      "founded": "2019",
       "keywords": ["covoiturage", "transport", "économie", "écologique", "partage"],
       "emoji": "🚙"
     },
@@ -386,9 +376,9 @@
       "category": "Transport",
       "title": "Garini",
       "description": "Application mobile pour trouver des places de stationnement disponibles en temps réel.",
-      "details": "Garini, fondée en 2021 par Abdelkrim Abada, aide les automobilistes à trouver des places de stationnement disponibles, facilitant ainsi la mobilité urbaine.",
-      "founders": ["Abdelkrim Abada"],
-      "founded": "2021",
+      "details": "Garini, fondée en 2017 par Abbes Oudda, aide les automobilistes à trouver des places de stationnement disponibles, facilitant ainsi la mobilité urbaine.",
+      "founders": ["Abbes Oudda"],
+      "founded": "2017",
       "keywords": ["stationnement", "mobilité", "application", "temps réel", "automobile"],
       "emoji": "🅿️"
     },
@@ -398,7 +388,7 @@
       "description": "Solutions d'emballage comestibles, saines et naturelles.",
       "details": "Packoffee propose des solutions d'emballage alimentaires innovantes et écologiques, visant à réduire les déchets dans l'industrie alimentaire.",
       "founders": [],
-      "founded": "",
+      "founded": "Not mentioned",
       "keywords": ["emballage", "comestible", "écologique", "réduction des déchets", "alimentaire"],
       "emoji": "🍔"
     },
@@ -408,7 +398,7 @@
       "description": "Fabrication d'emballages biodégradables et compostables.",
       "details": "Biovert Transformation fabrique des sacs et films biodégradables pour lutter contre la pollution plastique, contribuant ainsi à la préservation de l'environnement.",
       "founders": [],
-      "founded": "",
+      "founded": "Not mentioned",
       "keywords": ["emballage", "biodégradable", "compostable", "plastic", "environnement"],
       "emoji": "🌿"
     },
@@ -418,7 +408,7 @@
       "description": "Solutions de stockage réfrigéré alimenté par l’énergie solaire pour l'agriculture.",
       "details": "CoolFresh propose des solutions de stockage réfrigéré à énergie solaire pour aider les petits agriculteurs à conserver leurs produits, réduisant ainsi le gaspillage alimentaire.",
       "founders": [],
-      "founded": "",
+      "founded": "Not mentioned",
       "keywords": ["réfrigéré", "solaire", "stockage", "agriculture", "énergie renouvelable"],
       "emoji": "❄️"
     },
@@ -427,7 +417,7 @@
       "title": "Green Tech Innovation",
       "description": "Fablab ouvert pour promouvoir l'innovation verte.",
       "details": "Green Tech Innovation est la première startup en Algérie à offrir un Fablab pour aider à développer des produits et services utilisant des matériaux recyclés et réduisant l'empreinte carbone.",
-      "founders": ["G. Yassine", "N. Lamine"],
+      "founders": ["Yassine Guetarni", "N. Lamine"],
       "founded": "2021",
       "keywords": ["Fablab", "innovation", "verte", "environnement", "recyclage"],
       "emoji": "🌍"
@@ -438,7 +428,7 @@
       "description": "Solutions d'efficacité énergétique et d'énergies renouvelables.",
       "details": "Smart Energy Solution se spécialise dans l'optimisation de la gestion de l'énergie dans différents secteurs, avec un focus sur l'énergie solaire et les systèmes d'automatisation.",
       "founders": [],
-      "founded": "",
+      "founded": "Not mentioned",
       "keywords": ["énergie", "renouvelable", "efficacité", "automatisation", "solaire"],
       "emoji": "⚡"
     },
@@ -456,9 +446,9 @@
       "category": "Éducation",
       "title": "Coursella",
       "description": "Plateforme d'apprentissage sociale pour rendre l'éducation plus accessible.",
-      "details": "Coursella permet aux enseignants et aux étudiants de centraliser leurs cours, créer des discussions et partager des ressources pédagogiques.",
-      "founders": [],
-      "founded": "",
+      "details": "Coursella, une plateforme algérienne de gestion de cours en ligne lancée en 2013, permet aux enseignants et aux étudiants de centraliser leurs cours, créer des discussions et partager des ressources pédagogiques.",
+      "founders": ["Kheir Eddine Farfar", "Med Hichem Fendali"],
+      "founded": "2013",
       "keywords": ["éducation", "apprentissage", "social", "plateforme", "cours"],
       "emoji": "📚"
     },
@@ -477,9 +467,84 @@
       "title": "Robokids Academy",
       "description": "Académie de robotique pour enfants et jeunes.",
       "details": "Robokids Academy, fondée en 2017, offre des formations en programmation robotique et codage conformes aux normes internationales.",
-      "founders": [],
+      "founders": ["Dounya Boughambouz"],
       "founded": "2017",
       "keywords": ["robotique", "codage", "éducation", "jeunesse", "créativité"],
       "emoji": "🤖"
     }                 
+  ]
+
+  export const Formations = [
+    {
+      "category": "Éducation",
+      "title": "MBA Essentiel – Entrepreneuriat & Startups (INSAG)",
+      "description": "Programme complet sur la gestion de startups en partenariat avec l'International Business School of Washington.",
+      "details": "Couvre marketing digital, finance pour startups, gestion de projet, et droit des affaires. Formation dédiée à la création et gestion de startups.",
+      "keywords": ["MBA", "entrepreneuriat", "startup", "formation", "INSAG"],
+      "webLink": "https://insag.edu.dz/entrepreneurial-et-startups/"
+    },
+    {
+      "category": "Éducation",
+      "title": "Formations en gestion & entrepreneuriat – Universités DZ",
+      "description": "Formations académiques en gestion d'entreprise, innovation et entrepreneuriat.",
+      "details": "Disponibles dans plusieurs universités algériennes, notamment l'université de Souk Ahras qui propose des cours en ligne pour porteurs de projets.",
+      "keywords": ["université", "entrepreneuriat", "startup", "formation académique"],
+      "webLink": "https://www.univ-soukahras.dz/fr/formations"
+    },
+    {
+      "category": "Support aux Startups",
+      "title": "Accompagnement et formation - ANPT",
+      "description": "Soutien gratuit aux porteurs de projets et startups via l'Agence Nationale de Promotion et de Développement des Parcs Technologiques.",
+      "details": "Programme VIP (Virtual Incubation Program) offrant formations en ligne et accompagnement personnalisé.",
+      "keywords": ["ANPT", "incubation", "startup", "formation en ligne"],
+      "webLink": "https://anpt.dz/incubation"
+    },
+    {
+      "category": "Support aux Startups",
+      "title": "Formations en entrepreneuriat - Chambres de Commerce et d'Industrie (CCI)",
+      "description": "Ateliers et conseils personnalisés pour la création et la gestion d'entreprise.",
+      "details": "Les CCI algériennes proposent des formations pratiques pour entrepreneurs débutants ou confirmés.",
+      "keywords": ["CCI", "entrepreneuriat", "formation", "startup"],
+      "webLink": "https://cci-mezghena.dz/cci-mezghena"
+    },
+    {
+      "category": "Éducation",
+      "title": "Formations privées en gestion de startups",
+      "description": "Cours dispensés par divers organismes privés algériens en marketing, finance, et gestion.",
+      "details": "Plateforme Formation-dz.com regroupe plusieurs centres de formation spécialisés pour entrepreneurs.",
+      "keywords": ["formation privée", "startup", "entrepreneuriat", "formation professionnelle"],
+      "webLink": "https://www.formation-dz.com/"
+    },
+    {
+      "category": "e-commerce",
+      "title": "École EVACT Algérie",
+      "description": "École spécialisée dans l'e-commerce et l'import-export, axée sur l'entrepreneuriat pratique.",
+      "details": "Propose des programmes adaptés aux besoins des entrepreneurs, avec une forte orientation pratique.",
+      "keywords": ["e-commerce", "import-export", "EVACT", "entrepreneuriat", "startup"],
+      "webLink": "https://www.evact.net/fr/"
+    },
+    {
+      "category": "Éducation",
+      "title": "Institut IFTGC",
+      "description": "Institut proposant des formations en gestion, marketing et communication pour futurs entrepreneurs.",
+      "details": "Formations professionnelles adaptées aux besoins des startups, avec une approche pratique et spécialisée.",
+      "keywords": ["IFTGC", "formation", "gestion", "marketing", "startup"],
+      "webLink": "https://iftgc.dz"
+    },
+    {
+      "category": "Éducation",
+      "title": "Plateformes de formation en ligne",
+      "description": "Accès à des cours d'entrepreneuriat et de gestion de startups via Coursera, edX, et Udemy.",
+      "details": "Formations flexibles et accessibles pour apprendre à son rythme et renforcer ses compétences en startup.",
+      "keywords": ["Coursera", "edX", "Udemy", "formation en ligne", "entrepreneuriat"],
+      "webLink": "https://www.coursera.org"
+    },
+    {
+      "category": "Éducation",
+      "title": "Plateforme Formation-dz.com",
+      "description": "Répertoire des organismes de formation en Algérie pour startupers.",
+      "details": "Liste d'organismes offrant des cours en gestion d'entreprise, marketing, finance, et entrepreneuriat.",
+      "keywords": ["formation", "startup", "Formation-dz.com", "éducation"],
+      "webLink": "https://www.formation-dz.com/"
+    }
   ]
