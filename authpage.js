@@ -141,13 +141,7 @@ async function registerUser(name, email, password, phone, address) {
       createUserWithEmailAndPassword(auth, email, password)
         .then(async (userCredential) => {
               const user = userCredential.user;
-              sendEmailVerification(user)
-              .then(() => {
-                  alert("A verification email has been sent. Please check your inbox.");
-                  
-                  //sign out the user until they verify
-                  signOut(auth);
-              });
+
               // Add to Firestore
               await addDoc(usersRef, {
                 uid: user.uid,
@@ -157,6 +151,15 @@ async function registerUser(name, email, password, phone, address) {
                 phone,
                 address
               });
+
+              await sendEmailVerification(user)
+              .then(() => {
+                  alert("A verification email has been sent. Please check your inbox.");
+              });
+              
+              //sign out the user until they verify
+              await signOut(auth);
+
               container.classList.remove("active");
               document.querySelector('.before-SignUp').style.display = 'none';
               document.querySelector('.after-SignUp').style.display = 'block';
