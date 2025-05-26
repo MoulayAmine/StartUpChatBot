@@ -219,6 +219,7 @@ body{
         background-color: #fff; /* Optional: match container bg to avoid weird background */
         height: 100vh;
         overflow: hidden;
+        overflow-y: auto;
     }
 
     .container {
