@@ -105,7 +105,7 @@ async function registerUser(name, email, password, phone, address) {
     
       // Query for existing user
       const q = query(usersRef, 
-        where("Email", "==", email)
+        where("email", "==", email)
       );
     
       const querySnapshot = await getDocs(q);
