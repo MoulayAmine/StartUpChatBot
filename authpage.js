@@ -1,16 +1,20 @@
 
-import {auth, db } from "./firebaseConfig.js"; 
+import {auth, db } from "./firebaseConfig.js";
+import {Decree_1275_StartUps } from "./StartUpData.js";
 import {signInWithPopup, GoogleAuthProvider, onAuthStateChanged, fetchSignInMethodsForEmail, createUserWithEmailAndPassword, sendEmailVerification, signOut  } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-auth.js";
 import { getFirestore, collection, query, where, getDocs, addDoc } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-firestore.js";
 
 document.addEventListener('DOMContentLoaded', () => {
-
+    
+   
     const container = document.getElementById('container');
     const registerBtn = document.getElementById('register');
     const returnBtn = document.getElementById('returnbtn');
     const googlebtn = document.querySelectorAll('.icons');
     const SignUpbtn = document.getElementById('SignUp-btn');
     const placeholderText = {};
+    
+    //addOnlyNewFormations(Decree_1275_StartUps);
 
     document.querySelectorAll('.form-container.sign-up input').forEach((input) => {
       placeholderText[input.id] = input.placeholder;
@@ -170,4 +174,27 @@ async function registerUser(name, email, password, phone, address) {
         });
   }
 
-  
+/*
+  async function addOnlyNewFormations(dataArray) {
+  const DecreeCollection = collection(db, "Decree_1275_StartUps");
+
+  for (const decree of dataArray) {
+    try {
+      // 🔍 Check if a document with the same title already exists
+      const q = query(DecreeCollection, where("university", "==", decree.university));
+      const querySnapshot = await getDocs(q);
+
+      if (querySnapshot.empty) {
+        // ➕ Add new document – this automatically creates the collection if it doesn't exist
+        await addDoc(DecreeCollection, decree);
+        console.log(`✅ Added: ${decree.university}`);
+      } else {
+        console.log(`⏭️ Skipped (already exists): ${decree.university}`);
+      }
+
+    } catch (e) {
+      console.error("❌ Error adding/checking formation:", e);
+    }
+  }
+}
+*/

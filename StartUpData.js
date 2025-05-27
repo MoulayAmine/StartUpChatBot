@@ -548,3 +548,63 @@
       "webLink": "https://www.formation-dz.com/"
     }
   ]
+
+  export const Decree_1275_StartUps = [
+  {
+    "university": "Université d’Oran 2",
+    "description": "L’Université d’Oran 2 a publié une liste de projets incubés pour l’année universitaire 2023-2024 dans le cadre de l’arrêté 1275. Ces projets couvrent divers domaines tels que la technologie, l’agriculture, la santé et les services.",
+    "StartUps": [
+      { "name": "RAFIKI", "details": "Une plateforme de services juridiques." },
+      { "name": "ZANDA FOOD", "details": "Une startup de l'industrie alimentaire." },
+      { "name": "Moonlike for Tourism and Travel", "details": "Une application mobile de tourisme." },
+      { "name": "Pharmasave DZ", "details": "Une solution numérique pour les pharmacies." },
+      { "name": "SMART RECYCL", "details": "Une technologie de recyclage intelligent." },
+      { "name": "WIQAYA-TECH", "details": "Une startup de technologie de santé." },
+      { "name": "Autres projets", "details": "Les détails n’ont pas été divulgués." }
+    ]
+  },
+  {
+    "university": "Université de M’Sila",
+    "description": "L’Université de M’Sila est pionnière dans l’application de l’arrêté 1275 avec un grand nombre de projets enregistrés, soutenus et brevetés dans plusieurs domaines.",
+    "StartUps": [
+      {
+        "name": "Wool and Organic Fiber Sorting Machine",
+        "details": "Une machine de tri de fibres organiques et de laine."
+      },
+      {
+        "name": "Wool Spinning Machine",
+        "details": "Une machine de filage de laine."
+      }
+    ]
+  },
+  {
+    "university": "Université de Blida 2",
+    "description": "En mai 2023, l’Université de Blida 2 a organisé sa première soutenance de projet de fin d’études dans le cadre de l’arrêté 1275.",
+    "StartUps": [
+      {
+        "name": "FOUR-GM",
+        "details": "Une plateforme numérique de maintenance générale."
+      }
+    ]
+  },
+  {
+    "university": "Université d’El Oued",
+    "description": "En mars 2024, l’Université d’El Oued a présenté son premier mémoire national dans le cadre de l’arrêté 1275.",
+    "StartUps": [
+      {
+        "name": "Smart Device for Electrical Protection",
+        "details": "Un dispositif intelligent de protection électrique."
+      }
+    ]
+  },
+  {
+    "university": "Université de Sétif 1",
+    "description": "En juin 2023, deux étudiants ont soutenu leur mémoire de master dans le cadre de l’arrêté 1275.",
+    "StartUps": [
+      {
+        "name": "Projets soutenus",
+        "details": "Les détails du projet n’ont pas été divulgués."
+      }
+    ]
+  }
+]
