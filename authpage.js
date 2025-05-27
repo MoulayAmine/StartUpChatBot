@@ -1,6 +1,5 @@
 
 import {auth, db } from "./firebaseConfig.js";
-import {Decree_1275_StartUps } from "./StartUpData.js";
 import {signInWithPopup, GoogleAuthProvider, onAuthStateChanged, fetchSignInMethodsForEmail, createUserWithEmailAndPassword, sendEmailVerification, signOut  } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-auth.js";
 import { getFirestore, collection, query, where, getDocs, addDoc } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-firestore.js";
 
